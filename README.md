@@ -4,7 +4,7 @@
 
 #Вспомогательные пакеты:
 
-    yay git snad ark
+    yay git snapd ark wine pipewire alsa-utils easyeffects
 
 #Установленные шрифты:
 
@@ -13,3 +13,9 @@
 #Драйвера Nvidia
 
     sudo pacman -S nvidia-dkms nvidia-settings nvidia-utils
+
+#Остальные пакеты
+
+    sudo pacman -S telegram-desktop discord steam firefox obsidian
+
+
