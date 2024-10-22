@@ -1,6 +1,6 @@
 #Установленные пакеты:
 
-  sudo pacman -Sy waybar fish wofi sddm pavucontrol alacritty fastfetch thunar hyprpaper hyprlock 
+  	sudo pacman -Sy waybar fish wofi sddm pavucontrol alacritty fastfetch thunar hyprpaper hyprlock 
 
 #Вспомогательные пакеты:
 
