@@ -4,12 +4,12 @@
 
 #Вспомогательные пакеты:
 
-  yay git snad ark
+    yay git snad ark
 
 #Установленные шрифты:
 
-  sudo pacman -S ttf-jetbrains-mono-nerd ttf-ionicons
+    sudo pacman -S ttf-jetbrains-mono-nerd ttf-ionicons
 
 #Драйвера Nvidia
 
-  sudo pacman -S nvidia-dkms nvidia-settings nvidia-utils
+    sudo pacman -S nvidia-dkms nvidia-settings nvidia-utils
