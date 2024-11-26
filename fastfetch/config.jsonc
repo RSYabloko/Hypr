@@ -33,6 +33,31 @@
       "keyColor": "white"
     },
     {
+      "type": "cpu",
+      "key": "CPU",
+      "keyColor": "blue"
+    },
+    {
+      "type": "gpu",
+      "key": "GPU",
+      "keyColor": "blue"
+    },
+    {
+      "type": "memory",
+      "key": "MEM",
+      "keyColor": "blue"
+    },
+    {
+      "type": "display",
+      "key": "DISPLAY",
+      "keyColor": "blue"
+    },
+    {
+      "type": "monitor",
+      "key": "MONITOR",
+      "keyColor": "blue"
+    },
+    {
       "type": "packages",
       "key": "  󰮯",
       "keyColor": "yellow"
@@ -40,6 +65,16 @@
     {
       "type": "wm",
       "key": "  󰨇",
+      "keyColor": "blue"
+    },
+    {
+      "type": "cursor",
+      "key": "CURSOR",
+      "keyColor": "blue"
+    },
+    {
+      "type": "theme",
+      "key": "THEME",
       "keyColor": "blue"
     },
     {
