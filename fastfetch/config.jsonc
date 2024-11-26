@@ -34,27 +34,22 @@
     },
     {
       "type": "cpu",
-      "key": "CPU",
+      "key": "  ",
       "keyColor": "blue"
     },
     {
       "type": "gpu",
-      "key": "GPU",
+      "key": "  ",
       "keyColor": "blue"
     },
     {
       "type": "memory",
-      "key": "MEM",
+      "key": "  ",
       "keyColor": "blue"
     },
     {
       "type": "display",
-      "key": "DISPLAY",
-      "keyColor": "blue"
-    },
-    {
-      "type": "monitor",
-      "key": "MONITOR",
+      "key": "  󰍹",
       "keyColor": "blue"
     },
     {
@@ -69,12 +64,12 @@
     },
     {
       "type": "cursor",
-      "key": "CURSOR",
+      "key": "  󰇀",
       "keyColor": "blue"
     },
     {
       "type": "theme",
-      "key": "THEME",
+      "key": "  󰔎",
       "keyColor": "blue"
     },
     {
