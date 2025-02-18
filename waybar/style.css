@@ -1,7 +1,7 @@
 * {
 	font-family: JetBrainsMono, Symbols Nerd Font;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 16px;
 	min-height: 0;
 }
 
@@ -9,6 +9,8 @@
 @define-color bg2 #181825;
 @define-color bg4 #0781a6;
 @define-color bg3 #055f7a;
+@define-color bg4 #1e7547;
+@define-color bg5 #A65523;
 @define-color fg #cdd6f4;
 @define-color pink #f5c2e7;
 @define-color green #a6e3a1;
@@ -18,18 +20,33 @@
 @define-color vl #cba6f7;
 @define-color yellow #fab387;
 
+#memory,
+#cpu {
+	color: #FFFFFF;
+}
+
+#clock,
+#memory,
+#cpu,
+#custom-menu,
+#custom-weather,
+#language,
+#pulseaudio,
+#workspaces {
+	background-color: #7E6FDE;
+ }
 
 window#waybar {
 	border-radius: 20px;
-	background-color: @;
+	background-color: @bg1;
 	opacity: 0.9;
 }
 
+
 #workspaces {
-	padding: 2px 15px;
-	margin: 5px;
-	color: @fg;
-	background-color: @bg3;
+	padding: 2px 14px;
+	margin: 8px 10px;
+	color: #FFFFFF;
 	border: none;
 	border-radius: 20px;
 	opacity: 0.8;
@@ -49,13 +66,13 @@ button:hover {
 	color: @gf;
 }
 #workspaces button:hover {
-	color: @yellow;
+	color: @blue;
 }
 
 #workspaces button.empty {
 	color: @gr;
 	padding: 0 4px;
-	margin: 2px 5px 0 5px;
+	margin: 2px;
 	border-bottom: solid 2px #23252e;
 	border-radius: 0px;
 }
@@ -64,30 +81,35 @@ button:hover {
 #workspaces button.urgent {
 }
 
+#cpu {
+          padding: 2px 12px;
+          margin: 8px 10px;
+          border: none;
+          border-radius: 20px;
+}
+
+
 #custom-menu {
-	padding: 3px 15px;
-	margin: 5px 5px 5px 10px;
-	color: @vl;
-	background-color: @bg3;
+	padding: 2px 15px;
+	margin: 8px 0px;
+	color: #FFFFFF;
 	border: none;
 	border-radius: 20px;
 }
 
 #custom-weather {
-	padding: 2px 15px;
-	margin: 5px;
+	padding: 1px 8px;
+	margin: 8px;
 	color: @fg;
-	background-color: @bg3;
 	border: none;
-	border-radius: 10px;
+	border-radius: 20px;
 }
 
 
 #language {
-	padding: 2px 15px;
-	margin: 5px;
+	padding: 2px 12px;
+	margin: 8px 5px;
 	color: @fg;
-	background-color: @bg3;
 	border: none;
 	border-radius: 20px;
 }
@@ -96,10 +118,9 @@ button:hover {
 }
 
 #pulseaudio {
-	padding: 2px 15px;
-	margin: 5px;
+	padding: 5px 12px;
+	margin: 8px 5px;
 	color: @fg;
-	background-color: @bg3;
 	border: none;
 	border-radius: 20px;
 }
@@ -110,35 +131,25 @@ button:hover {
 	color: @yellow;
 }
 
-#clock {
-	padding: 2px 15px;
-	margin: 5px;
-	color: @fg;
-	background-color: @bg3;
-	border: none;
-	border-radius: 20px;
-}
-#clock:hover {
-	color: @yellow;
+#clock{
+    padding: 5px 8px;
+    border-style: none;
+    opacity: 1;
+    margin: 8px 0;
+    border-radius: 20px;
 }
 
-#custom-power {
-	padding: 2px 15px;
-	margin: 5px 10px 5px 5px;
-	color: @pink;
-	background-color: @bg3;
-	border: none;
-	border-radius: 20px;
-}
-#custom-power:hover {
-	color: @red;
+#memory {
+         padding: 5px 12px;
+         margin: 8px 5px;
+         border: none;
+         border-radius: 20px;
 }
 
 tooltip {
 	background: @bg;
-	margin: 20px;
-	padding: 15px;
+	margin: 8px 0px;
+	padding: 5px 8px;
 	border: 20px solid rgba(100, 114, 125, 0);
 	border-radius: 10px;
 }
-
