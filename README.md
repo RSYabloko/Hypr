@@ -1,3 +1,11 @@
+#Установка yay:
+
+    git clone https://aur.archlinux.org/yay.git
+
+#Установка из AUR, который скомпилирует последнюю версию исходного кода: Hyprland:
+
+    yay -S hyprland-git
+
 #Установленные пакеты:
 
   	sudo pacman -Sy waybar fish wofi sddm pavucontrol alacritty fastfetch thunar hyprpaper hyprlock 
