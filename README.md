@@ -16,11 +16,11 @@
 
 #Вспомогательные пакеты:
 
-    yay git snapd ark wine pipewire alsa-utils easyeffects
+    yay git pavucontrol wine pulseaudio pulseaudio-alsa alsa-utils
 
 #Установленные шрифты:
 
-    sudo pacman -S ttf-jetbrains-mono-nerd ttf-ionicons
+    sudo pacman -S ttf-jetbrains-mono-nerd ttf-ionicons noto-fonts-emoji
 
 #Драйвера Nvidia
 
