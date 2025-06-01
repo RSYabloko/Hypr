@@ -30,4 +30,11 @@
 
     sudo pacman -S telegram-desktop discord steam firefox obsidian
 
+#Amnezia
+    
+    yay -S amneziawg-dkms amneziawg-tools
 
+#Vencord
+
+    sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"
+    
