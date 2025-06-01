@@ -37,4 +37,9 @@
 #Vencord
 
     sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"
+
+#GPG & Pass
+
+    sudo pacman -S gnupg pass
+    
     
