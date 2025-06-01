@@ -2,9 +2,13 @@
 
     git clone https://aur.archlinux.org/yay.git
 
-#Установка из AUR, который скомпилирует последнюю версию исходного кода: Hyprland:
+#Установка или из AUR, который скомпилирует последнюю версию исходного кода: Hyprland:
 
-    yay -S hyprland-git
+        yay -S hyprland-git
+
+#Установка из репы, который скомпилирует последнюю версию исходного кода: Hyprland:
+
+    pacman -S hyprland
 
 #Установленные пакеты:
 
