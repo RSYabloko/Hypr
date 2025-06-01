@@ -41,5 +41,11 @@
 #GPG & Pass
 
     sudo pacman -S gnupg pass
-    
-    
+
+#Фильтр синего
+
+    sudo pacman -S wlsunset
+
+    Запуск:
+
+    wlsunset -t 4499 -T 4500
