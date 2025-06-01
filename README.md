@@ -48,4 +48,4 @@
 
     Запуск:
 
-    wlsunset -t 4499 -T 4500
+    wlsunset -t 4000 -T 4001
